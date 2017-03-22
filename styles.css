@@ -1,0 +1,108 @@
+.item {
+    width: 200px;
+    display: inline-block;
+    margin: 10px 10px 20px 10px;
+}
+
+.image-holder {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hover-panel {
+    display: none;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.image-holder:hover .hover-panel {
+    display: block;
+}
+
+.icon {
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background: #2aa6e1;
+    border-radius: 50%;
+}
+
+.icon .fa {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.info-option {
+    color: #8a8a8a;
+    padding: 15px 5px 10px;
+    position: relative;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.custom-checkbox {
+    position: absolute;
+    right: 5px;
+    border: 1px solid;
+}
+
+.custom-checkbox {
+    visibility: hidden;
+    margin: 0;
+}
+
+.custom-checkbox + label {
+    width: 20px;
+    height: 20px;
+    right: 5px;
+    border: 1px solid;
+    position: absolute;
+    cursor: pointer;
+}
+
+.custom-checkbox:checked + label {
+    background: #2aa6e1;
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+
+hr {
+    margin-top: 5px;
+    border: 0;
+    border-top: 1px solid #b5b5b5;
+}
+
+.info-details {
+    color: #b5b5b5;
+}
+
+.info-details p {
+    margin: 3px 0px;
+}
